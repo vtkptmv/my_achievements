@@ -192,3 +192,19 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Віртуальне середовище Python
+venv/
+.venv/
+
+# Папки з даними (якщо не хочете комітити великі файли)
+/data/
+!/data/nba_games_24_25.csv  # Виняток для конкретного файлу
+
+# Налаштування IDE
+.vscode/
+.idea/
+
+# Логи та тимчасові файли
+*.log
+*.tmp
